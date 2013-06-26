@@ -1,0 +1,62 @@
+// ------------------------------------------------------------
+// Demo styles
+// ------------------------------------------------------------
+
+* { margin: 0; padding: 0; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+html { font-size: 100%; }
+body { padding: 5%; font: 300 1em/1.6 sans-serif; color: #444; }
+
+h1 { margin-bottom: 1em; font-size: 2.5em; line-height: 1.3; }
+h1 span { display: inherit; color: #3498db; font-size: .5em; font-weight: 100; @include breakpoint(480px) { font-size: .675em; }}
+h2 { font-weight: 100; }
+a { color: #0088CC; text-decoration: none; outline: 0; }
+a:hover { color: #005580; }
+
+.container { @include row(); }
+.thing { margin-bottom: 1em; background: #3498db; color: #fff; text-align: center; }
+.read-more { display: block; margin-top: 2em; }
+
+// ------------------------------------------------------------
+// Media queries mixin
+// ------------------------------------------------------------
+
+@mixin breakpoint($point) {
+  @if $point == 480px {
+    @media (min-width: 30em) { @content; }
+  }
+  @else if $point == 768px {
+    @media (min-width: 48em) { @content; }
+  }
+  @else if $point == 1024px {
+    @media (min-width: 60em)  { @content; }
+  }
+  @else if $point == 1280px {
+    @media (min-width: 80em)  { @content; }
+  }
+}
+
+// ------------------------------------------------------------
+// Neat grid using Omega Reset
+// ------------------------------------------------------------
+
+.thing {
+  @include breakpoint(480px)  {
+    @include span-columns(6);
+    @include omega(2n);
+  }
+  @include breakpoint(768px)  {
+    @include omega-reset(2n);
+    @include span-columns(4);
+    @include omega(3n);
+  }
+  @include breakpoint(1024px) {
+    @include omega-reset(3n);
+    @include span-columns(3);
+    @include omega(4n);
+  }
+  @include breakpoint(1280px) {
+    @include omega-reset(4n);
+    @include span-columns(2);
+    @include omega(6n);
+  }
+}
