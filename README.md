@@ -1,7 +1,5 @@
 # Omega Reset for Bourbon Neat
 
-> If you clone this repo, I've included a working demo to see `omega-reset()` in action.
-
 ## Bourbon Neat's Grid Settings
 
 Create a `_grid-settings.scss` file. Bourbon Neat looks for that file to see if there are any overrides to their built in settings. You can read more about it in the [Bourbon docs](http://bourbon.io/docs/#flex-grid).
