@@ -7,7 +7,7 @@ Create a `_grid-settings.scss` file. Bourbon Neat looks for that file to see if 
     $fg-column: $column;
     $fg-gutter: $gutter;
 
-[http://joshfry.me/notes/omega-reset-for-bourbon-neat/#http://joshfry.me/notes/omega-reset-for-bourbon-neat/#update_your_grid_settings](http://joshfry.me/notes/omega-reset-for-bourbon-neat/#http://joshfry.me/notes/omega-reset-for-bourbon-neat/#update_your_grid_settings)
+[http://joshfry.me/notes/omega-reset-for-bourbon-neat/#update_your_grid_settings](http://joshfry.me/notes/omega-reset-for-bourbon-neat/#update_your_grid_settings)
 
 
 ## Omega Reset Mixin
