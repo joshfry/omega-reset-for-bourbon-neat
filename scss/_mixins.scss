@@ -3,6 +3,7 @@
 // ------------------------------------------------------------
 
 @mixin omega-reset($nth) {
-  &:nth-child(#{$nth}) { margin-right: flex-gutter(); }
+  $direction: get-direction($layout-direction, $default-layout-direction);
+  &:nth-child(#{$nth}) { margin-#{ $direction }: flex-gutter(); }
   &:nth-child(#{$nth}+1) { clear: none }
 }
