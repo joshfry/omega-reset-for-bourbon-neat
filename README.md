@@ -1,4 +1,4 @@
-# Omega Reset for Bourbon Neat
+# [Omega Reset for Bourbon Neat](http://joshfry.me/notes/omega-reset-for-bourbon-neat/)
 
 ## Bourbon Neat's Grid Settings
 
@@ -6,9 +6,6 @@ Create a `_grid-settings.scss` file. Bourbon Neat looks for that file to see if 
 
     $fg-column: $column;
     $fg-gutter: $gutter;
-
-[http://joshfry.me/notes/omega-reset-for-bourbon-neat/#update-your-grid-settings](http://joshfry.me/notes/omega-reset-for-bourbon-neat/#update-your-grid-settings)
-
 
 ## Omega Reset Mixin
 
@@ -19,18 +16,14 @@ Create a `_mixins.scss` file. This is the omega-reset mixin:
       &:nth-child(#{$nth}+1) { clear: none }
     }
 
-[http://joshfry.me/notes/omega-reset-for-bourbon-neat/#include-omega-reset-mixin](http://joshfry.me/notes/omega-reset-for-bourbon-neat/#include-omega-reset-mixin)
-
 ## Useage
 
-    @include breakpoint(480px)  {
+    @include media(30em)  {
       @include span-columns(6);
       @include omega(2n);
     }
-    @include breakpoint(768px)  {
+    @include media(48em)  {
       @include omega-reset(2n); // Pass in the previous media query's omega() argument to reset it
       @include span-columns(4);
       @include omega(3n);
     }
-
-[http://joshfry.me/notes/omega-reset-for-bourbon-neat/#how-to-use-omega-reset-in-your-html](http://joshfry.me/notes/omega-reset-for-bourbon-neat/#how-to-use-omega-reset-in-your-html)
