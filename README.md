@@ -26,7 +26,7 @@
 
 ### Install
 
-    $ rake
+`$ rake`
 
 - Installs Ruby Gems to `/vendor/ruby`
 - Installs Bower packages to `/vendor/bower`
@@ -34,14 +34,13 @@
 
 ### Grunt
 
-    $ grunt dev
+`$ grunt dev`
 
 - [localhost:8000](http://localhost:8000)
 - Livereload
 - Compiles Scss
 
-
-    $ grunt build
+`$ grunt build`
 
 - Run this before commiting/pushing to repo
 - Copies latest `_omega-reset.scss` to `dist/`
