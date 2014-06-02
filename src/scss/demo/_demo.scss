@@ -1,0 +1,17 @@
+// ------------------------------------------------------------
+// Demo styles
+// ------------------------------------------------------------
+
+* { margin: 0; padding: 0; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+html { font-size: 100%; }
+body { padding: 5%; font: 300 1em/1.6 sans-serif; color: #444; }
+
+h1 { margin-bottom: 1em; font-size: 2.5em; line-height: 1.3; }
+h1 span { display: inherit; color: #3498db; font-size: .5em; font-weight: 100; @include breakpoint(480px) { font-size: .675em; }}
+h2 { font-weight: 100; }
+a { color: #0088CC; text-decoration: none; outline: 0; }
+a:hover { color: #005580; }
+
+.container { @include row(); }
+.grid > div { margin-bottom: 1em; background: #3498db; color: #fff; text-align: center; }
+.read-more { display: block; margin-top: 2em; }
