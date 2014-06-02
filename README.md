@@ -40,6 +40,7 @@
 - Livereload
 - Compiles Scss
 
+
     $ grunt build
 
 - Run this before commiting/pushing to repo
