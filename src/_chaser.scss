@@ -1,7 +1,7 @@
 // Chaser
 // http://github.com/kennethormandy/chaser
 
-// Omega Reset mixin based Josh Fry’s Omega Reset for Bourbon Neat
+// Omega Reset mixin based on Josh Fry’s Omega Reset for Bourbon Neat
 // http://joshfry.me/notes/omega-reset-for-bourbon-neat
 
 @mixin omega-reset($nth, $current-columns: $grid-columns, $direction: get-direction($layout-direction, $default-layout-direction)) {
