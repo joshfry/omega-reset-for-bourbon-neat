@@ -1,8 +1,8 @@
 # Chaser
 
-Properly reset complex column arrangements, for Neat.
+Bourbon Neat helpers for complex, mobile-first layouts.
 
-Based on Josh Fry’s [Omega Reset for Bourbon Neat](http://joshfry.me/notes/omega-reset-for-bourbon-neat).
+Omega Reset mixin based on Josh Fry’s [Omega Reset for Bourbon Neat](http://joshfry.me/notes/omega-reset-for-bourbon-neat).
 
 ## Getting started
 

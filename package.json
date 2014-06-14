@@ -1,6 +1,6 @@
 {
   "name": "chaser",
-  "description": "Properly reset complex column arrangements, for Neat",
+  "description": "Bourbon Neat helpers for complex, mobile-first layouts.",
   "version": "0.1.0",
   "author": "Kenneth Ormandy <hello@kennethormandy.com>",
   "contributors": [
@@ -8,6 +8,7 @@
     "Johannes Schmidt",
     "Kenneth Ormandy"
   ],
+  "main": "src/_chaser.scss",
   "scripts": {
     "test": "harp server -p 9023 & open http://localhost:9023/test"
   },
