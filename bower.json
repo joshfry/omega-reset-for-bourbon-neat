@@ -1,7 +1,7 @@
 {
   "name": "omega-reset-for-bourbon-neat",
   "description": "Change the number of columns when styling mobile-first layouts",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "dependencies": {
     "bourbon": "https://github.com/thoughtbot/bourbon.git#4.0.1",
     "neat": "https://github.com/thoughtbot/neat.git#1.6.0"
