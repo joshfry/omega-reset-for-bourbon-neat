@@ -4,8 +4,7 @@
 // http://joshfry.me/notes/omega-reset-for-bourbon-neat
 // -------------------------------------------------------------------
 
-@mixin omega-reset($nth, $current-columns: $grid-columns, $direction: get-direction($layout-direction, $default-layout-direction)) {
-  margin-#{ get-opposite-direction($direction) }: 0;
-  &:nth-child(#{$nth}) { margin-#{ $direction }: flex-gutter($current-columns, $gutter); }
+@mixin omega-reset($nth) {
+  &:nth-child(#{$nth}) { margin-right: flex-gutter($grid-columns, $gutter); }
   &:nth-child(#{$nth}+1) { clear: none }
 }
