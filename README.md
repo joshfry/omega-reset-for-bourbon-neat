@@ -1,4 +1,4 @@
-# [Omega Reset for Bourbon Neat](http://joshfry.me/notes/omega-reset-for-bourbon-neat/)
+# [Omega Reset for Bourbon Neat](http://www.joshfry.me/blog/2013/05/13/omega-reset-for-bourbon-neat/)
 
 **Latest `omega-reset()` located in `dist/`**
 
